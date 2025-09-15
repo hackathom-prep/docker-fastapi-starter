@@ -17,28 +17,6 @@ Includes **Users** and **Items** modules with controllers, models, services, and
 
 ---
 
-## 📂 Project Structure
-
-fastapi-starter/
-│── app/
-│ ├── controllers/
-│ │ ├── users.py
-│ │ └── items.py
-│ ├── models/
-│ │ ├── user.py
-│ │ └── item.py
-│ ├── services/
-│ │ ├── user_service.py
-│ │ └── item_service.py
-│ ├── database/
-│ │ └── db.py
-│ └── main.py # App entry point
-│── requirements.txt
-│── README.md
-│── Dockerfile
-
----
-
 ## ⚡ Getting Started
 
 ### Prerequisites
