@@ -37,6 +37,8 @@ source env/bin/activate
 
 ### Install dependencies
 
+-# No need for this for the app to run with docker
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -49,4 +51,10 @@ uvicorn main:app --reload
 
 # production
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+### Run the app in a docker container
+
+```bash
+docker compose up --build
 ```

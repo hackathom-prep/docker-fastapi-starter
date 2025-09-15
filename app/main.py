@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from controllers import router as api_router
+from app.controllers import router as api_router
 from fastapi.middleware.cors import CORSMiddleware
-from database import close_connection, get_connection
+from app.database import close_connection, get_connection
 
 app = FastAPI()
 app.include_router(api_router)

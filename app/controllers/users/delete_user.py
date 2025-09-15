@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from fastapi.exceptions import HTTPException
-from services.users.delete_user import delete_user as delete_user_service
+from app.services.users.delete_user import delete_user as delete_user_service
 
 
 router = APIRouter()

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
-from services.items.get_item import get_item as get_item_service
+from app.services.items.get_item import get_item as get_item_service
 
 
 router = APIRouter()

@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from models.user import User
+from app.models.user import User
 from fastapi.exceptions import HTTPException
-from services.users.update_user import update_user as update_user_service
+from app.services.users.update_user import update_user as update_user_service
 
 router = APIRouter()
 

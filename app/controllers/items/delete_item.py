@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
-from services.items.delete_item import delete_item as delete_item_service
+from app.services.items.delete_item import delete_item as delete_item_service
 
 
 router = APIRouter()
