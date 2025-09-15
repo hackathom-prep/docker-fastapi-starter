@@ -37,7 +37,6 @@ fastapi-starter/
 │── README.md
 │── Dockerfile
 
-
 ---
 
 ## ⚡ Getting Started
@@ -46,10 +45,10 @@ fastapi-starter/
 
 - Python 3.11+
 - pip
-- venv ( virtual environment for python ) 
-
+- venv ( virtual environment for python )
 
 ### Create Virual Envirnoment
+
 ```bash
 python -m venv env
 # Windows
@@ -62,4 +61,14 @@ source env/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Run App
+
+```bash
+# development
+uvicorn main:app --reload
+
+# production
+uvicorn main:app --host 0.0.0.0 --port 8000
 ```
